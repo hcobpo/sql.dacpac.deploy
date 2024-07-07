@@ -16,7 +16,7 @@ param commonTags object = {}
 param sqlSkuTier string = 'GeneralPurpose'
 param sqlSkuFamily string = 'Gen5'
 param sqlSkuName string = 'GP_S_Gen5'
-param mincores int = 2 // number of cores (from 0.5 to 40)
+param mincores int = 1 // number of cores (from 0.5 to 40)
 param autopause int = 60 // time in minutes
 
 // param storageAccountName string = ''
